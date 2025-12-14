@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+    
     public float moveSpeed; 
     public float jumpHeight; 
     public KeyCode Spacebar; 
@@ -207,6 +208,8 @@ public class PlayerController : MonoBehaviour {
         hasLightPulse = true;
         Debug.Log("Light Pulse Unlocked!");
     }
+
+    
 }
 
 
